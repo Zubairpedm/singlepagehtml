@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Finance Mastery Academy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+      background: #f8f9fa;
+    }
+
+    header {
+      background: #1a237e;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #3949ab;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: #303f9f;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #2e3c62;
+    }
+
+    .course-card {
+      background: white;
+      padding: 2rem;
+      margin: 1rem 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .course-card h3 {
+      margin-top: 0;
+      color: #1a237e;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.2rem;
+      background: #1a237e;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #0d1548;
+    }
+
+    .testimonials, .contact {
+      background: #e8eaf6;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1a237e;
+      color: white;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Finance Mastery Academy</h1>
+  <p>Master Investment Banking & Personal Finance — Learn. Grow. Succeed.</p>
+</header>
+
+<nav>
+  <a href="#courses">Courses</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="courses">
+  <h2 class="section-title">Our Courses</h2>
+
+  <div class="course-card">
+    <h3>Investment Banking Bootcamp</h3>
+    <p>Learn financial modeling, valuation, M&A analysis, and pitchbook creation. Perfect for students & professionals looking to break into IB.</p>
+    <p><strong>Duration:</strong> 8 weeks | <strong>Level:</strong> Intermediate–Advanced</p>
+    <a class="btn" href="#">Enroll Now</a>
+  </div>
+
+  <div class="course-card">
+    <h3>Personal Finance Mastery</h3>
+    <p>Understand budgeting, debt management, investing basics, and tax planning to take full control of your personal financial life.</p>
+    <p><strong>Duration:</strong> 4 weeks | <strong>Level:</strong> Beginner</p>
+    <a class="btn" href="#">Enroll Now</a>
+  </div>
+
+</section>
+
+<section id="testimonials" class="testimonials">
+  <h2 class="section-title">What Our Students Say</h2>
+
+  <div class="course-card">
+    <p>💬 “The IB Bootcamp was a game-changer! Landed an internship at a top investment bank thanks to the practical training.”</p>
+    <p>— Rahul Mehta, MBA Student</p>
+  </div>
+
+  <div class="course-card">
+    <p>💬 “I used to struggle with budgeting. After the Personal Finance course, I'm confidently investing every month.”</p>
+    <p>— Anjali Verma, Working Professional</p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="section-title">Get In Touch</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <textarea placeholder="Your Message" rows="4" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  © 2025 Finance Mastery Academy. All rights reserved.
+</footer>
+
+</body>
+</html>
